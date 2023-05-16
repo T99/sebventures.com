@@ -1,0 +1,182 @@
+/*----------------------------------------------------------------------------
+	colorscheme.css for colorscheme 6
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+    background: repeat-y;
+    background-image: url(images/static/contentbg.gif);
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    background: no-repeat;
+    background-image: url(images/static/headerbg.gif);
+}
+
+/*--- key visiual ----------------------------------------------------------*/
+
+#key_visual {
+    background: no-repeat;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+    background: no-repeat top right;
+}
+
+/*--- caption --------------------------------------------------------------*/
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+    background-image: url(images/static/menubg.gif);
+    border-left: 1px solid #A4ABAD;
+    border-right: 1px solid #A4ABAD;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+a.main_nav_item {
+    background: no-repeat;
+    background-position: top left;
+}
+
+a.main_nav_item:hover {
+    background: no-repeat;
+    background-position: top left;
+}
+
+a.main_nav_active_item {
+    background: no-repeat;
+    background-position: top left;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+.sub_nav_container {
+    background-image: url(images/static/submenubg.gif);
+    border-left: 1px solid #A4ABAD;
+    border-right: 1px solid #A4ABAD;
+}
+
+a.sub_nav_item {
+    background: no-repeat;
+}
+
+a.sub_nav_item:hover {
+    background: no-repeat;
+}
+
+a.sub_nav_active_item {
+    background: no-repeat;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+    background: transparent top left no-repeat;
+    background-image: url(images/static/footerbg.gif);
+    background-color: #FFF7F7;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    color: #ffffff;
+    background-color: #FFF7F7;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+.content {
+    color: #000000;
+}
+
+.content table {
+    color: #000000;
+    border-color: #D40000;
+}
+
+.content select {
+    color: #000000;
+}
+
+.content input {
+    color: #000000;
+    border-color: #000000;
+}
+
+.content textarea {
+    color: #000000;
+    border-color: #000000;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+/*--- links ----------------------------------------------------------------*/
+
+/*--- tables ---------------------------------------------------------------*/
+
+.content th {
+    color: #ffffff;
+    background-color: #D40000;
+    border-color: #D40000;
+}
+
+.content td {
+    border-color: #D40000;
+}
+
+.content tr.odd {
+    color: #818181;
+    background-color: #FFF7F7;
+}
+
+.content tr.even {
+    color: #818181;
+    background-color: #FFFFFF;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+.content fieldset {
+    border-color: #454545;
+}
+
+.content legend {
+    color: #454545;
+}
+
+.content label {
+    color: #0D0D0C;
+}
+
+.content #submit {
+    background-color: #FEEFEF;
+    border-color: #ADAEB0;
+    color: #3A4B54;
+}
+
+/*--------------------------------------------------------------------------*/
+
+#sub_nav_column {
+    background: transparent bottom right no-repeat;
+    background-image: url(images/static/list.gif);
+}
+
+#weblog_calendar caption {
+    color: #000000;
+}
+
